@@ -12,6 +12,11 @@ header {
     padding:10px 0;
 }
 
+a {
+    text-decoration: none;
+    color:white;
+}
+
 header div {
     width: 960px;
     margin:auto;
@@ -21,11 +26,6 @@ header div {
 
 nav {
     width:calc(100% - 200px);
-}
-
-nav a{
-    color:white;
-    text-decoration: none;
 }
 
 nav ul {
@@ -43,6 +43,33 @@ main div {
     display:flex;
     justify-content: space-between;
     margin:30px 0;
+}
+
+section {
+    width:calc(50% - 30px);
+    height:400px;
+}
+
+section h2 {
+    font-size:1.2em;
+    font-weight:600;
+}
+
+section p{
+    overflow:auto;
+    margin:5px 0;
+    height: calc(100% - 2.2em - 30px);
+}
+
+section a {
+    background-color: black;
+    padding: 10px 20px;
+    display:inline-block;
+}
+
+section a:hover {
+    background-color:#525252;
+    transition-delay: 350ms;
 }
 
 footer {
