@@ -14,7 +14,29 @@ main {
 header {
     width:100%;
     background-color:#525252;
-    padding:10px;
+    padding:10px 0;
+}
+
+header div {
+    width: 960px;
+    margin:auto;
+    display:flex;
+    align-items: center;
+}
+
+nav a{
+    color:white;
+    text-decoration: none;
+}
+
+nav ul {
+    display:flex;
+    width:760px;
+    justify-content: space-around;
+}
+
+nav ul li {
+    width:150px;
 }
 
 footer {
